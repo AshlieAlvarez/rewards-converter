@@ -5,8 +5,7 @@ RewardValue must convert from miles to cash at a rate of 0.0035.
  */
 public class RewardValue {
 //INSTANCE VARIABLES
-
-    private static final double MILES_TO_CASH_CONVERSION_RATE = 0.0035;
+    public static final double MILES_TO_CASH_CONVERSION_RATE = 0.0035;
     private double cashValue;
     private int milesValue;
 
